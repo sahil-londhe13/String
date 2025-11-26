@@ -15,7 +15,7 @@ public class IndexString
 public static void main(String args[])
 {
         Scanner sc =new Scanner(System.in);
-        String s="Sahil Sudhir Londhe";
+        String s="Bright Path";
         System.out.println("Enter the character of string :");
         char ch=sc.next().charAt(0);
         System.out.println("Index of "+ch+" is :");
@@ -23,4 +23,5 @@ public static void main(String args[])
         System.out.println(s.indexOf(ch));
 
     }
+
 }
