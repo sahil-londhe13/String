@@ -14,11 +14,12 @@ public class SubString
     public static void main(String args[])
     {
         Scanner sc =new Scanner(System.in);
-        String s="Sahil Sudhir Londhe";
+        String s="Bright Path";
         System.out.println("Enter the start of string");
         int start=sc.nextInt();
         System.out.println("Enter the end of string");
         int end=sc.nextInt();
         System.out.println(Substring(s,start,end));
     }
+
 }
